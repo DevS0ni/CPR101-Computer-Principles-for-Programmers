@@ -37,7 +37,7 @@ After successful completion of this course, it helped me to...
   * Interact with others in groups or teams in ways that contribute to effective working relationships and the achievement of goals.
   * Manage the use of time and other resources to complete projects.
   * Take responsibility for one's own actions, decisions, and consequences.
-  * Gained a handsome knowledge on all of the topics of Intro to C Programming namely-
+  * Gained a handsome knowledge on all of the topics of Computer Principles for Programmers namely-
 
 Current IT Industry News and Analysis - 15%
 
