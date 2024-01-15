@@ -7,7 +7,7 @@ Course Description
 ----------------------------------------
 After successful completion of this course, it helped me to...
 ```
-  * get the knowledge, skills, and techniques to succeed in a computer programming curriculum.
+  * gain the knowledge, skills, and techniques to succeed in a computer programming curriculum.
   * learn how modern computer systems implement process control, multitasking, virtualization,
     file storage, and network communications.
   * introduce to essential hardware and device concepts, operating system usage and interaction,
