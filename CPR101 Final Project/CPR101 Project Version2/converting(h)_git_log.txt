@@ -1,1 +1,22 @@
-commit d45dce9ec5a13b7a9ea1898367aa1e31fce3bc30Author: aynur gulkanatDate:   Sat Aug 13 20:39:54 2022 -0400    v2diff --git a/converting.h b/converting.hnew file mode 100144index 0000000..ce925aa--- /dev/null+++ b/converting.h@@ -0,0 +1,86 @@+// CONVERTING MODULE HEADER+#ifndef _CONVERTING_H_ // allows conditional compilation for _CONVERTING_H+#define _CONVERTING_H_+#include <stdio.h>+#include <string.h>+#include <stdlib.h>+void converting (void);  // function prototype declaration with datatype to be void and with no +arguments to be passed onto the function.+#endif  //preprocessing compilation successful!
+
+
+commit d45dce9ec5a13b7a9ea1898367aa1e31fce3bc30
+Author: aynur gulkanat
+Date:   Sat Aug 13 20:39:54 2022 -0400
+
+    v2
+
+diff --git a/converting.h b/converting.h
+new file mode 100144
+index 0000000..ce925aa
+--- /dev/null
++++ b/converting.h
+@@ -0,0 +1,86 @@
++// CONVERTING MODULE HEADER
++#ifndef _CONVERTING_H_ // allows conditional compilation for _CONVERTING_H
++#define _CONVERTING_H_
++#include <stdio.h>
++#include <string.h>
++#include <stdlib.h>
++void converting (void);  // function prototype declaration with datatype to be void and with no +arguments to be passed onto the function.
++#endif  //preprocessing compilation successful!
