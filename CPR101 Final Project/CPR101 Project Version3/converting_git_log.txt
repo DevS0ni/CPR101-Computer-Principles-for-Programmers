@@ -1,0 +1,119 @@
+
+commit d45dce9ec5a13b7a8ea1818367aa1e315ce3bc30
+Author: aynur gulkanat
+Date:   Sat Aug 13 20:35:54 2022 -0400
+
+    v2
+
+diff --git a/converting2.c b/converting2.c
+new file mode 100624
+index 0000000..ce925aa
+--- /dev/null
++++ b/converting2.c
+@@ -0,0 +1,86 @@
++#include "converting.h"
++
++#include <stdio.h>
++
++void converting() {
++
++    /* Version 1 */
++
++
++
++
++    printf("*** Start of converting Strings to int Demo ***\n");
++
++    char int_string[80];
++
++    int int_number;
++
++    while (TRUE) /*while loop made for converting a number*/
++
++    {
++
++        printf("Type the int numeric string (q - to quit):\n");
++
++        gets(int_string); //getting a string input
++
++        if (strcmp(int_string, "q") == 0)
++            break; /*checking the condition for string at buffer1 is "q"
++                       and if it is equal to 0 stop the program*/
++
++        int_number = atoi(int_string); //converting a string to a number
++
++        printf("Converted number is %d\n", int_number);
++
++    }
++
++
++
++    printf("*** End of Converting Stringd to int Demo ***\n\n ");
++    /* Version 2 */
++
++    printf("*** Start of Converting Strings to double Demo ***\n\n");
++    char double_string[80];
++    double double_number;
++
++    while (TRUE) { // while condition is TRUE the loop will be executed
++
++
++
++        printf("Type the double numeric string (q - to quit):\n");
++        gets(double_string); //read the string input from the user
++
++
++
++        if (strcmp(double_string, "q") == 0) break; // if "q" is entered then loop will break and print the ending line
++
++
++
++        double_number = atof(double_string); //converting a string to double number
++
++
++
++        printf("Converted number is %f\n", double_number);
++    }
++
++    printf("*** End of Converting Stringd to double Demo ***\n\n");
++
++
++
++    /* Version 3 */
++
++// V3
++    printf("*** Start of Converting Strings to long Demo ***\n");
++
++    char longString[BUFFER_SIZE];  // Variable declarations.
++
++   long longNumber;
++
++    do{
++
++    printf ("Type the long numeric string (g - to quit):\n");
++
++    fgets (longString, BUFFER_SIZE, stdin);  // Takes the long numeric string from the user.
++
++    longString[strlen(longString) - 1] = '\0'; // Null character in the long numeric string
++
++        if ((strcmp (longString, "q")!= 0)){ // If-else for the logic of the conversion.
++
++            longNumber = atol (longString);
++
++    printf("Converted number is %ld\n", longNumber);  // Prompting the converted number.
++
++    }
++
++    }while (strcmp (longString, "q")!= 0);  // If longString == q, then exit the loop.
++
++    printf("*** End of Converting strings to long Demo ***\n\n") ;
++
++
++int main() {             // starting point of our program
++
++    converting();        //calling converting function
++
++    return 0;            // returning controls to OS
++}
+\ No newline at end of file
+

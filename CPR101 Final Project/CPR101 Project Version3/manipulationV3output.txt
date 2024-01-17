@@ -1,0 +1,33 @@
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit) :
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+We are what we do
+Type the substring:
+at
+'at' found at 9 position
+Type the string (q - to quit):
+''''
+Type the substring:
+''''
+'''''' found at 0 position
+Type the string (q - to quit):
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaoooaaaaaaaaaaaaaaaaa
+Type the substring:
+ooo
+'ooo' found at 50 position
+Type the string (q - to quit):
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvwwvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Type the substring:
+'v' found at 0 position
+Type the string (q - to quit):
+q
+*** End of searching Strings Demo ***

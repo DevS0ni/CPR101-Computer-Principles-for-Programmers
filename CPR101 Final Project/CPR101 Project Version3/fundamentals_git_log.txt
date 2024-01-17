@@ -1,0 +1,114 @@
+commit 78641c9d57a6a468359ded34a4eb457d39c36351
+Author: Jenil Patel
+Date:   Sat Aug 13 10:22:45 2022 -0400
+
+    v2
+
+diff --git a/fundamentals.c b/fundamentals.c
+new file mode 100644
+index 0000000..53490a6
+--- /dev/null
++++ b/fundamentals.c
+@@ -0,0 +1,72 @@
++
++#include "fundamentals.h"
++
++void fundamentals() {
++       /* Version 1 */
++       printf("*** Start of Indexing Strings Demo ***\n");
++
++
++       //variables initializations
++       char buffer1[80];
++       char num_input[10];
++       int position;
++
++       //while loop made for getting a string input and to search for a character at the desired position
++       while (TRUE) {
++               printf("Type a string (q - to quit):\n");
++
++               gets(buffer1);                                                    // Getting the string input from user; length below 80 letters
++
++
++
++               if (strcmp(buffer1, "q") == 0)                    //checking the condition for string at buffer1 is "q"
++                       break;                                                            //and if it is equal to 0 stop the program
++
++
++               // while loop made for getting correct position number as input
++               while (TRUE) {
++                       printf("Type the character position within the string:\n");
++
++                       gets(num_input);                                // getting string input from user ; length below 10 letters
++
++                       position = atoi(num_input);             // converting string input to integer
++
++                       if (position >= strlen(buffer1)) { //checking length of letters
++
++                               printf("Wrong position... type again, please\n");
++
++                               continue;
++                       }
++                       printf("The character found at %d position is \'%c\'\n",
++                               position, buffer1[position]);
++                       break;                                                                                                    //stoping the loop
++               }
++       }
++
++
++       printf("*** End of Indexing Strings Demo ***\n\n");
++
++       /* Version 2 */
++       printf("*** Start of Measuring Strings Demo ***\n");
++       char buffer2[80];
++
++       // while loop created for getting the string input and checking its length
++       while (TRUE) {
++               printf("Type a string (q - to quit) :\n");
++               gets(buffer2);                                                          // prompt the user to input a string
++               if (strcmp(buffer2, "q") == 0)
++                       break;                /*checking that if the in put is "q" if yes then breaking the loop
++                                                           and terminates the program by printing the ending line*/
++
++               printf("The length is %lu\n", strlen(buffer2)); //printing the string length
++
++       }
++
++       printf("*** End of Measuring Strings Demo ***\n\n");
++       /* Version 3 */
+// V3
++   printf("*** Start of Copying strings Demo ***\n");
++
++    char destination[BUFFER_SIZE];
++
++    char source[BUFFER_SIZE1];
++
++    do
++
++    {
++
++     destination[0] = '\0';  //Destination initialisation
++
++     printf("Destination string is reset to empty\n");
++
++     printf(("Type the source string (q - to quit):\n");
++
++     fgets(source, BUFFER_SIZE, stdin);  // Takes the input from the user.
++
++     source[strlen(source) - 1] = '\0';  // Source variable null character position.
++
++     if (strcmp (source, "q") != 0) {  // If logic, to swap the strings!
++
++        strcpy (destination, source);
++
++        printf ("New destination string is \'%s\'\n", destination);
++
++}
++
++int main() {             // starting point of our program
++       fundamentals();          //calling fundamentals function
++       return 0;                        // returning controls to OS
++
++}                        // END of program
+\ No newline at end of file
+

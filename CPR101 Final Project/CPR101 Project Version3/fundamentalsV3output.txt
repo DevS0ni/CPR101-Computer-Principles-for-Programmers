@@ -1,0 +1,43 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+*** Start of Copying strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Hello!
+New destination string is 'Hello!'
+Destination string is reset to empty
+Type the source string (q - to quit):
+9915141011
+New destination string is '9915141011'
+Destination string is reset to empty
+Type the source string (q - to quit):
+^X
+New destination string is '^X'
+Destination string is reset to empty
+Type the source string (q - to quit):
+^X
+New destination string is '↑'
+Destination string is reset to empty
+Type the source string (q - to quit):
+)(*&^%$#@!~
+New destination string is ')(*&^%$#@!~'
+Destination string is reset to empty
+Type the source string (q - to quit):
+q!?
+New destination string is 'q!?'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***

@@ -1,0 +1,125 @@
+commit 497305c9a126ae9344d2ccf6fedbf614913b1695
+Author: Prashansha
+Date:   Sat Aug 13 21:06:40 2022 -0400
+
+    v2
+
+diff --git a/manipulating.c b/manipulating.c
+new file mode 106644
+index 0000000..8a5ac71
+--- /dev/null
++++ b/manipulating.c
+@@ -0,0 +1,71 @@
++#include "manipulating.h"
++ 
++void manipulating()
++{
++	/* Version 1 */
++	{
++
++		/*
++		* this code concatenates 2 user defined/input strings
++		* and combines them into one string
++		*/
++
++		printf("*** Start of Concatenating Strings Demo ***\n");
++		char string1[80];
++		char string2[80];
++		while (TRUE) // beginning of while loop, asking for user input
++		{
++			printf("Type the 1st string (q - to quit):\n");
++			gets(string1);
++			if (strcmp(string1, "q") == 0) break; // If the string is "q" stop the program
++			printf("Type the 2nd string:\n");
++			gets(string2); // Getting the 2nd string input from user
++			strcat_s(string1, sizeof string1, string2); // Concatenate the 2 strings
++			printf("Concatenated String is \'%s\'\n", string1);
++		}
++		printf("*** End of Concatenating Strings Demo ***\n\n");
++	}
++
++
++
++
++	/* Version 2 */
++	printf("*** Start of Comparing Strings Demo ***\n");
++	char compare1[80];
++	char compare2[80];
++	int result;
++
++	/*
++	* this code compares 2 user defined/input strings
++	*/
++	while (TRUE)
++	{
++		printf("Type the 1st string to compare (q - to quit):\n");
++		gets(compare1); // getting string input and storing it in compare1 array
++
++		if (strcmp(compare1, "q") == 0) break; // checking the condition for string at compare1 is "q"
++		
++		printf("Type the 2st string to compare:\n");
++
++		gets(compare2); // getting string input and storing it in compare2 array
++
++		result = strcmp(compare1, compare2); // result is set to the result of comparing the 2 strings
++
++		if (result < 0) // if result is less than 0, the 1st string is smaller than the 2nd string
++			printf("1st string is less than 2nd\n");
++
++		else if (result == 0) // else if check for value of result is equal 0 then print the line under "else if" statement and exit the loop
++			printf("1st string is equal to 2nd\n");
++		else // if none of the above then print the line under "else" statement and exit the loop
++			printf("1st string is greater than 2nd\n");
++		
++	}
++	printf("*** End of Comparing Strings Demo ***\n");
++
++
++
++	/* Version 3 */
+
++    // V3
++
++    printf("*** Start of Searching Strings Demo ***\n");
++
++    char haystack[BUFFER_SIZEl;  // Variables declaration
++
++    char needle[BUFFER_SIZE];
++
++    char* occurrence = NULL;
++
++    do{
++
++        printf("Type the string (q - to quit):\n");
++
++        fgets(haystack, BUFFER_SIZE,stdin);  // Inputing the user input (string).
++
++        haystack[strlen(haystack) - 1] = '\0';  // Null character in the haystack.
++
++        if(strcmp (haystack,"q") != 0){
++
++                printf("Type the substring:\n");
++
++                fgets (needle, BUFFER_SIZE, stdin);
++
++                needle[strlen(needle) - 1] = '\0';
++
++                occurrence = strstr(haystack, needle);
++
++                if(occurrence)
++
++                  printf("\'%s\' found at %d position\n",needle, (int) (occurrence - haystack));
++
++                else
++
++                  printf ("Not found\n");
++
++                  }
++
++    }while(strcmp (haystack,"q")!= 0);  // To exit the loop..
++
++    printf ("*** End of searching Strings Demo ***\n\n") ;
++
++
++}
+\ No newline at end of file
