@@ -1,0 +1,20 @@
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+651
+Converted number is 651.000000
+Type the double numeric string (q - to quit):
+-56
+Converted number is -56.000000
+Type the double numeric string (q - to quit):
+0
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+aynur
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+@25a!256
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+56945678912345600546565
+Converted number is 56945678912345604096000.000000
+Type the double numeric string (q - to quit):

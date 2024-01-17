@@ -1,0 +1,27 @@
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit):
+gm,gn,omy
+Phrase #1 is 'gm'
+Phrase #2 is 'gn'
+Phrase #3 is 'omy'
+Type a few phrases separated by comma (q - to quit):
+gn,gm
+Phrase #1 is 'gn'
+Phrase #2 is 'gm'
+Type a few phrases separated by comma (q - to quit):
+34,65,34,567
+Phrase #1 is '34'
+Phrase #2 is '65'
+Phrase #3 is '34'
+Phrase #4 is '567'
+Type a few phrases separated by comma (q - to quit):
+Jenil,Shah
+Phrase #1 is 'Jenil'
+Phrase #2 is 'Shah'
+Type a few phrases separated by comma (q - to quit):
+h,i
+Phrase #1 is 'h'
+Phrase #2 is 'i'
+Type a few phrases separated by comma (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***

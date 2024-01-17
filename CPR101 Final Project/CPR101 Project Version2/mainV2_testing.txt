@@ -1,0 +1,108 @@
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+PrashansaPassi
+The length is 14
+Type a string (q - to quit) :
+No rain No flowers
+The length is 18
+Type a string (q - to quit) :
+123456789
+The length is 9
+Type a string (q - to quit) :
+*&^%$#@!!@#
+The length is 11
+Type a string (q - to quit) :
+Start where you are, use what you have and do what you can
+The length is 58
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+today the weather very nice
+Type the 2st string to compare:
+working is hard because I don't have air condition at home
+1st string is less than 2nd
+Type the 1st string to compare (q - to quit):
+
+Type the 2st string to compare:
+
+1st string is equal to 2nd
+Type the 1st string to compare (q - to quit):
+Register before August 14 to $200 off the standard pass price
+Type the 2st string to compare:
+Register before August
+1st string is greater than 2nd
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of converting Strings to int Demo ***
+Type the int numeric string (q - to quit):
+q
+*** End of Converting String to int Demo ***
+
+*** Start of Converting String to double Demo ***
+
+ Type the double numeric string (q - to quit):
+651
+Converted number is 651.000000
+Type the double numeric string (q - to quit):
+-56
+Converted number is -56.000000
+Type the double numeric string (q - to quit):
+0
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+aynur
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+@25a!256
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+q
+*** End of Converting String to double Demo ***
+
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space(q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+
+Type a few phrases seperated by comma(q - to quit):
+gm,gn,omy
+Phrase #1 is 'gm'
+Phrase #2 is 'gn'
+Phrase #3 is 'omy'
+Type a few phrases seperated by comma(q - to quit):
+gn,gm
+Phrase #1 is 'gn'
+Phrase #2 is 'gm'
+Type a few phrases seperated by comma(q - to quit):
+346,534,567
+Phrase #1 is '346'
+Phrase #2 is '534'
+Phrase #3 is '567'
+Type a few phrases seperated by comma(q - to quit):
+Jenil,Shah
+Phrase #1 is 'Jenil'
+Phrase #2 is 'Shah'
+Type a few phrases seperated by comma(q - to quit):
+h,i
+Phrase #1 is 'h'
+Phrase #2 is 'i'
+Type a few phrases seperated by comma(q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***

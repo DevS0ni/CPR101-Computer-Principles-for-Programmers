@@ -1,0 +1,23 @@
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit) :
+today the weather very nice
+Type the 2nd string to compare:
+working is hard because I don't have air condition at home
+'today the weather very nice' string is less than 'working is hard because I don't have air condition at home'
+Type the 1st string to compare (q - to quit) :
+
+Type the 2nd string to compare:
+
+'" string is equal to ''
+Type the 1st string to compare (q - to quit) :
+Learn about the tools and ideas your business and career need to achieve unstoppable success
+Type the 2nd string to compare:
+'Learn about the tools and ideas your business and career need to achieve unsto' string is less than 'pable success'
+Type the 1st string to compare (q - to quit) :
+Register before August 14 to save $200 off the standard pass price
+Type the 2nd string to compare:
+Register before August
+'Register before August 14 to save $200 off the standard pass price' string is greater than 'Register before August'
+Type the 1st string to compare (q - to quit) :
+q
+*** End of Comparing Strings Demo ***

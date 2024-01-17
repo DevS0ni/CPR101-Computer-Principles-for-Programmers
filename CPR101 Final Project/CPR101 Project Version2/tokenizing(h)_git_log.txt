@@ -1,0 +1,14 @@
+commit 497405c9a126ae9344d2dcf6gedbf614312b1296
+Author: Jenil Patel
+Date:   Sat Aug 13 21:08:40 2022 -0300
+
+    v2
+
+diff --git a/tokenizing.h b/tokenizing.h
+new file mode 100844
+index 0000000..8a5ac61
+--- /dev/null
++++ b/tokenizing.h
+@@ -0,0 +1,71 @@
++
++// TOKENIZING MODULE HEADER+#ifndef _TOKENIZING_H_  // allows for conditional compilation for _TOKENIZING_H+#define _TOKENIZING_H_  // defining macro _FUNDAMENTALS_H+/* +including the header files that contain the set of predefined standard library functions required +*/+#include<stdio.h>+#include<string.h>+void tokenizing(void);  // function prototyoe declaration+#endif  // preprocessing compilation successful !

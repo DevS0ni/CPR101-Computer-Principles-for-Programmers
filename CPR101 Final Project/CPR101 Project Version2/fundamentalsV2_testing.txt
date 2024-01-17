@@ -1,0 +1,49 @@
+*** Start of Indexing Strings Demo ***
+Type a string (q - to quit):
+anbcefghs
+Type the character position within the string:
+3
+The character found at 3 position is 'c'
+Type a string (q - to quit):
+Aynur Gulkanat
+Type the character position within the string:
+6
+The character found at 6 position is 'G'
+Type a string (q - to quit):
+6467897890001
+Type the character position within the string:
+10
+The character found at 10 position is '0'
+Type a string (q - to quit):
+ddsahghgshgfuiebnvnBNMV
+Type the character position within the string:
+11
+The character found at 11 position is 'f'
+Type a string (q - to quit):
+qa
+Type the character position within the string:
+1
+The character found at 1 position is 'a'
+Type a string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit) :
+PrashansaPassi
+The length is 14
+Type a string (q - to quit) :
+No rain No flowers
+The length is 18
+Type a string (q - to quit) :
+123456789
+The length is 9
+Type a string (q - to quit) :
+*&^%$#@!!@#
+The length is 11
+Type a string (q - to quit) :
+Start where you are, use what you have and do what you can
+The length is 58
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
