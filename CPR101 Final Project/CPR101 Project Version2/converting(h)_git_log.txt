@@ -1,5 +1,3 @@
-
-
 commit d45dce9ec5a13b7a9ea1898367aa1e31fce3bc30
 Author: aynur gulkanat
 Date:   Sat Aug 13 20:39:54 2022 -0400
